@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="site78829" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\freelanceprojects\\TexasPortalsDotNet\\texas_operational_portal_backend\\texas_operational_portal_backend\\src\\TexasOperationalPortal\.Api\\obj\\Release\\net9\.0\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>

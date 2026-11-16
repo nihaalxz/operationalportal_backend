@@ -1,0 +1,1 @@
+import{at as e,it as t,n}from"../chunks/B1ikhBHT.js";import{n as r}from"../chunks/C5DI2sox.js";import"../chunks/xihTtKlq.js";import"../chunks/Cl8H0Rjh.js";function i(i,a){e(a,!0),n(()=>{r(`/login`,{replaceState:!0})}),t()}export{i as component};

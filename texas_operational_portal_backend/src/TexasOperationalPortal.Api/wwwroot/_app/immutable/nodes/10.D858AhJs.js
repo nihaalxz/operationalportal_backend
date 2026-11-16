@@ -1,0 +1,1 @@
+import{t as e}from"../chunks/DK3Fl9T5.js";import{r as t}from"../chunks/BuFlayix.js";function n(e,n){throw new t(e,n.toString())}var r=e({load:()=>i}),i=({url:e})=>{let t=e.searchParams.get(`service`);throw t?n(307,`/pending-applications?service=${t}`):n(307,`/pending-applications`)};export{r as universal};

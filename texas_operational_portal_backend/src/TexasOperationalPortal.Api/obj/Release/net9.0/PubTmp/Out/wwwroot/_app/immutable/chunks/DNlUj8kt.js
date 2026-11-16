@@ -1,0 +1,1 @@
+import{C as e,E as t,G as n,N as r,Z as i,at as a,ct as o,g as s,it as c,w as l,z as u}from"./B1ikhBHT.js";import"./xihTtKlq.js";var d=t(`<span> </span>`);function f(t,f){a(f,!0);let p=i(()=>(f.type||``).toUpperCase());var m=d(),h=n(m,!0);o(m),u(t=>{s(m,1,`service-badge service-badge--${t??``}`,`svelte-o0n7bj`),e(h,r(p))},[()=>r(p).toLowerCase()]),l(t,m),c()}export{f as t};
