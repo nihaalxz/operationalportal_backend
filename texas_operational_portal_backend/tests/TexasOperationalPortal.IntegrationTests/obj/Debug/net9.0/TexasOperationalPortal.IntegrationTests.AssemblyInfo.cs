@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TexasOperationalPortal.IntegrationTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db1df0ad77411aaded6d4ce4ea012519818f7368")]
 [assembly: System.Reflection.AssemblyProductAttribute("TexasOperationalPortal.IntegrationTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TexasOperationalPortal.IntegrationTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -34,7 +34,7 @@ public sealed class AssignmentService : IAssignmentService
     {
         if (string.IsNullOrWhiteSpace(request.EntityType))
             throw new ArgumentException("EntityType is required.", nameof(request));
-        if (request.EntityId <= 0)
+        if (request.EntityId < 0)
             throw new ArgumentException("Valid EntityId is required.", nameof(request));
 
         var entityTypeUpper = request.EntityType.Trim().ToUpperInvariant();

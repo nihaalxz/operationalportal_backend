@@ -169,4 +169,47 @@ public class AssignmentServiceTests
         Assert.Equal(1, assignment.CompletedByUserId);
         Assert.NotNull(assignment.CompletedAt);
     }
+
+    [Fact]
+    public async Task ClaimOperationAsync_Should_Allow_EntityId_Zero_When_Legitimate()
+    {
+        // Arrange
+        using var db = CreateDbContext(Guid.NewGuid().ToString());
+        var user = new OperationalUser
+        {
+            Id = 1,
+            Name = "Operator John",
+            Email = "john@texas.com",
+            PasswordHash = "hash",
+            UserType = UserType.Operations
+        };
+        db.Users.Add(user);
+        await db.SaveChangesAsync();
+
+        var service = new AssignmentService(db, new DummyAssignmentCacheService(), new DummyLogger<AssignmentService>());
+        var request = new ClaimAssignmentRequest("VFS", 0, "TXSVFS069785", "Claiming VFS 0");
+
+        // Act
+        var response = await service.ClaimOperationAsync(request, 1, default);
+
+        // Assert
+        Assert.NotNull(response);
+        Assert.Equal("VFS", response.EntityType);
+        Assert.Equal(0, response.EntityId);
+        Assert.Equal("TXSVFS069785", response.EntityDocumentNumber);
+        Assert.Equal("Assigned", response.Status);
+    }
+
+    [Fact]
+    public async Task ClaimOperationAsync_Should_Throw_When_EntityId_Negative()
+    {
+        using var db = CreateDbContext(Guid.NewGuid().ToString());
+        var service = new AssignmentService(db, new DummyAssignmentCacheService(), new DummyLogger<AssignmentService>());
+        var request = new ClaimAssignmentRequest("VFS", -1, "TXSVFS069785", null);
+
+        await Assert.ThrowsAsync<ArgumentException>(async () =>
+        {
+            await service.ClaimOperationAsync(request, 1, default);
+        });
+    }
 }

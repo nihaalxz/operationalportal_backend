@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\freelanceprojects\\TexasPortalsDotNet\\texas_operational_portal_backend\\texas_operational_portal_backend\\src\\TexasOperationalPortal.Application\\TexasOperationalPortal.Application.csproj": {}
+    "D:\\freelanceprojects\\TexasPortalsDotNet\\texas_operational_portal_backend\\texas_operational_portal_backend\\src\\TexasOperationalPortal.Application\\TexasOperationalPortal.Application.csproj": {}
   },
   "projects": {
-    "d:\\freelanceprojects\\TexasPortalsDotNet\\texas_operational_portal_backend\\texas_operational_portal_backend\\src\\TexasOperationalPortal.Application\\TexasOperationalPortal.Application.csproj": {
+    "D:\\freelanceprojects\\TexasPortalsDotNet\\texas_operational_portal_backend\\texas_operational_portal_backend\\src\\TexasOperationalPortal.Application\\TexasOperationalPortal.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\freelanceprojects\\TexasPortalsDotNet\\texas_operational_portal_backend\\texas_operational_portal_backend\\src\\TexasOperationalPortal.Application\\TexasOperationalPortal.Application.csproj",
+        "projectUniqueName": "D:\\freelanceprojects\\TexasPortalsDotNet\\texas_operational_portal_backend\\texas_operational_portal_backend\\src\\TexasOperationalPortal.Application\\TexasOperationalPortal.Application.csproj",
         "projectName": "TexasOperationalPortal.Application",
-        "projectPath": "d:\\freelanceprojects\\TexasPortalsDotNet\\texas_operational_portal_backend\\texas_operational_portal_backend\\src\\TexasOperationalPortal.Application\\TexasOperationalPortal.Application.csproj",
+        "projectPath": "D:\\freelanceprojects\\TexasPortalsDotNet\\texas_operational_portal_backend\\texas_operational_portal_backend\\src\\TexasOperationalPortal.Application\\TexasOperationalPortal.Application.csproj",
         "packagesPath": "C:\\Users\\nihaa\\.nuget\\packages\\",
-        "outputPath": "d:\\freelanceprojects\\TexasPortalsDotNet\\texas_operational_portal_backend\\texas_operational_portal_backend\\src\\TexasOperationalPortal.Application\\obj\\",
+        "outputPath": "D:\\freelanceprojects\\TexasPortalsDotNet\\texas_operational_portal_backend\\texas_operational_portal_backend\\src\\TexasOperationalPortal.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -34,11 +34,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "d:\\freelanceprojects\\TexasPortalsDotNet\\texas_operational_portal_backend\\texas_operational_portal_backend\\src\\TexasOperationalPortal.Contracts\\TexasOperationalPortal.Contracts.csproj": {
-                "projectPath": "d:\\freelanceprojects\\TexasPortalsDotNet\\texas_operational_portal_backend\\texas_operational_portal_backend\\src\\TexasOperationalPortal.Contracts\\TexasOperationalPortal.Contracts.csproj"
+              "D:\\freelanceprojects\\TexasPortalsDotNet\\texas_operational_portal_backend\\texas_operational_portal_backend\\src\\TexasOperationalPortal.Contracts\\TexasOperationalPortal.Contracts.csproj": {
+                "projectPath": "D:\\freelanceprojects\\TexasPortalsDotNet\\texas_operational_portal_backend\\texas_operational_portal_backend\\src\\TexasOperationalPortal.Contracts\\TexasOperationalPortal.Contracts.csproj"
               },
-              "d:\\freelanceprojects\\TexasPortalsDotNet\\texas_operational_portal_backend\\texas_operational_portal_backend\\src\\TexasOperationalPortal.Domain\\TexasOperationalPortal.Domain.csproj": {
-                "projectPath": "d:\\freelanceprojects\\TexasPortalsDotNet\\texas_operational_portal_backend\\texas_operational_portal_backend\\src\\TexasOperationalPortal.Domain\\TexasOperationalPortal.Domain.csproj"
+              "D:\\freelanceprojects\\TexasPortalsDotNet\\texas_operational_portal_backend\\texas_operational_portal_backend\\src\\TexasOperationalPortal.Domain\\TexasOperationalPortal.Domain.csproj": {
+                "projectPath": "D:\\freelanceprojects\\TexasPortalsDotNet\\texas_operational_portal_backend\\texas_operational_portal_backend\\src\\TexasOperationalPortal.Domain\\TexasOperationalPortal.Domain.csproj"
               }
             }
           }
@@ -90,21 +90,16 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
         }
-      },
-      "runtimes": {
-        "linux-x64": {
-          "#import": []
-        }
       }
     },
-    "d:\\freelanceprojects\\TexasPortalsDotNet\\texas_operational_portal_backend\\texas_operational_portal_backend\\src\\TexasOperationalPortal.Contracts\\TexasOperationalPortal.Contracts.csproj": {
+    "D:\\freelanceprojects\\TexasPortalsDotNet\\texas_operational_portal_backend\\texas_operational_portal_backend\\src\\TexasOperationalPortal.Contracts\\TexasOperationalPortal.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\freelanceprojects\\TexasPortalsDotNet\\texas_operational_portal_backend\\texas_operational_portal_backend\\src\\TexasOperationalPortal.Contracts\\TexasOperationalPortal.Contracts.csproj",
+        "projectUniqueName": "D:\\freelanceprojects\\TexasPortalsDotNet\\texas_operational_portal_backend\\texas_operational_portal_backend\\src\\TexasOperationalPortal.Contracts\\TexasOperationalPortal.Contracts.csproj",
         "projectName": "TexasOperationalPortal.Contracts",
-        "projectPath": "d:\\freelanceprojects\\TexasPortalsDotNet\\texas_operational_portal_backend\\texas_operational_portal_backend\\src\\TexasOperationalPortal.Contracts\\TexasOperationalPortal.Contracts.csproj",
+        "projectPath": "D:\\freelanceprojects\\TexasPortalsDotNet\\texas_operational_portal_backend\\texas_operational_portal_backend\\src\\TexasOperationalPortal.Contracts\\TexasOperationalPortal.Contracts.csproj",
         "packagesPath": "C:\\Users\\nihaa\\.nuget\\packages\\",
-        "outputPath": "d:\\freelanceprojects\\TexasPortalsDotNet\\texas_operational_portal_backend\\texas_operational_portal_backend\\src\\TexasOperationalPortal.Contracts\\obj\\",
+        "outputPath": "D:\\freelanceprojects\\TexasPortalsDotNet\\texas_operational_portal_backend\\texas_operational_portal_backend\\src\\TexasOperationalPortal.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -161,22 +156,17 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "linux-x64": {
-          "#import": []
         }
       }
     },
-    "d:\\freelanceprojects\\TexasPortalsDotNet\\texas_operational_portal_backend\\texas_operational_portal_backend\\src\\TexasOperationalPortal.Domain\\TexasOperationalPortal.Domain.csproj": {
+    "D:\\freelanceprojects\\TexasPortalsDotNet\\texas_operational_portal_backend\\texas_operational_portal_backend\\src\\TexasOperationalPortal.Domain\\TexasOperationalPortal.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\freelanceprojects\\TexasPortalsDotNet\\texas_operational_portal_backend\\texas_operational_portal_backend\\src\\TexasOperationalPortal.Domain\\TexasOperationalPortal.Domain.csproj",
+        "projectUniqueName": "D:\\freelanceprojects\\TexasPortalsDotNet\\texas_operational_portal_backend\\texas_operational_portal_backend\\src\\TexasOperationalPortal.Domain\\TexasOperationalPortal.Domain.csproj",
         "projectName": "TexasOperationalPortal.Domain",
-        "projectPath": "d:\\freelanceprojects\\TexasPortalsDotNet\\texas_operational_portal_backend\\texas_operational_portal_backend\\src\\TexasOperationalPortal.Domain\\TexasOperationalPortal.Domain.csproj",
+        "projectPath": "D:\\freelanceprojects\\TexasPortalsDotNet\\texas_operational_portal_backend\\texas_operational_portal_backend\\src\\TexasOperationalPortal.Domain\\TexasOperationalPortal.Domain.csproj",
         "packagesPath": "C:\\Users\\nihaa\\.nuget\\packages\\",
-        "outputPath": "d:\\freelanceprojects\\TexasPortalsDotNet\\texas_operational_portal_backend\\texas_operational_portal_backend\\src\\TexasOperationalPortal.Domain\\obj\\",
+        "outputPath": "D:\\freelanceprojects\\TexasPortalsDotNet\\texas_operational_portal_backend\\texas_operational_portal_backend\\src\\TexasOperationalPortal.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -233,11 +223,6 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "linux-x64": {
-          "#import": []
         }
       }
     }
